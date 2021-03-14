@@ -1,6 +1,20 @@
 body{
     color: cornsilk;
-    background-image: url("Home/DAIRY_MILK_PROJECT/Dairy cows.jpp");
+    background-image: url("Dairy cows.jpp");
     background-size: 100% 100%;
     background-color: rgb(10, 10, 90);
+}
+div{
+    width: 80px;
+    height: 20px;
+    padding: 2px;
+    border: 5px  solid black;
+    background-color: aqua;
+    color: black;
+
+}
+p{
+    font-size: x-large;
+    font-style: italic;
+    color: red;
 }
