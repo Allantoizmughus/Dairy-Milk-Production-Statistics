@@ -67,37 +67,37 @@ function product3(){
     document.querySelector("#total3").innerHTML=calculate3;
 }
 
-function product2(){
-    var k =parseInt(document.querySelector("#epd2").value);
-    var l =parseInt(document.querySelector("#dpm2").value);
-    var op =document.querySelector("#operator2").value;
-    var calculate2;
+function product4(){
+    var o =parseInt(document.querySelector("#epd4").value);
+    var p =parseInt(document.querySelector("#dpm4").value);
+    var op =document.querySelector("#operator4").value;
+    var calculate4;
     if(op == "multiply"){
-        calculate2=k*l;
+        calculate4=o*p;
     }
-    document.querySelector("#total2").innerHTML=calculate2;
+    document.querySelector("#total4").innerHTML=calculate4;
 }
 
-function product2(){
-    var k =parseInt(document.querySelector("#epd2").value);
-    var l =parseInt(document.querySelector("#dpm2").value);
-    var op =document.querySelector("#operator2").value;
-    var calculate2;
+function product5(){
+    var q =parseInt(document.querySelector("#epd5").value);
+    var r =parseInt(document.querySelector("#dpm5").value);
+    var op =document.querySelector("#operator5").value;
+    var calculate5;
     if(op == "multiply"){
-        calculate2=k*l;
+        calculate5=q*r;
     }
-    document.querySelector("#total2").innerHTML=calculate2;
+    document.querySelector("#total5").innerHTML=calculate5;
 }
 
-function product2(){
-    var k =parseInt(document.querySelector("#epd2").value);
-    var l =parseInt(document.querySelector("#dpm2").value);
-    var op =document.querySelector("#operator2").value;
-    var calculate2;
+function product6(){
+    var s =parseInt(document.querySelector("#epd6").value);
+    var t =parseInt(document.querySelector("#dpm6").value);
+    var op =document.querySelector("#operator6").value;
+    var calculate6;
     if(op == "multiply"){
-        calculate2=k*l;
+        calculate6=s*t;
     }
-    document.querySelector("#total2").innerHTML=calculate2;
+    document.querySelector("#total6").innerHTML=calculate6;
 }
 
 function product2(){
