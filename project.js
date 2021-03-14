@@ -11,3 +11,15 @@ function calc() {
     document.querySelector("#results").innerHTML=calculate;
 }
 
+function calc(){
+    var e = parseInt(document.querySelector("#weekp").value);
+    var f = parseInt(document.querySelector("#cost").value);
+    var op = document.querySelector("#operatorr").value;
+    var calculatee;
+    if(op == "multiply"){
+      calculatee= e*f;     
+    }
+    document.querySelector("#resultss").innerHTML=calculatee;
+}
+
+
