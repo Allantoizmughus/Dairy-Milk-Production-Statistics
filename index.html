@@ -8,8 +8,22 @@
   </head>
     <body>
         <h1>My Dairy Milk Production Stats</h1>
-     
+     <form>
+        Shed A:<input type="text" id="value1"><br><br>
+        Shed B:<input type="text" id="value2"><br><br>
+        Shed C:<input type="text" id="value3"><br><br>
+        Shed D:<input type="text" id="value4"><br><br>
+        Operator:
+        <select id="operator">
+            <option value="add">Add</option>
+
+        </select>
+        <button type="button" onclick="calc()">Calculate</button>
+    </form>
+
+    <div id="results"></div>
     
        
     </body>
+    <script src="project.js"></script>
 </html>
