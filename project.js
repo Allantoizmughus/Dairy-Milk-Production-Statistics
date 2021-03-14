@@ -27,11 +27,11 @@ function product(){
     var g =parseInt(document.querySelector("#weeke").value);
     var h =parseInt(document.querySelector("#numweek").value);
     var op =document.querySelector("#operata").value;
-    var calculat;
+    var calculate;
     if(op == "multiply"){
-        calculat=g*h;
+        calculate=g*h;
     }
-    document.querySelector("#result").innerHTML=calculat;
+    document.querySelector("#result").innerHTML=calculate;
 }
 
 
