@@ -100,15 +100,15 @@ function product6(){
     document.querySelector("#total6").innerHTML=calculate6;
 }
 
-function product2(){
-    var k =parseInt(document.querySelector("#epd2").value);
-    var l =parseInt(document.querySelector("#dpm2").value);
-    var op =document.querySelector("#operator2").value;
-    var calculate2;
+function product7(){
+    var u =parseInt(document.querySelector("#epd7").value);
+    var v =parseInt(document.querySelector("#dpm7").value);
+    var op =document.querySelector("#operator7").value;
+    var calculate7;
     if(op == "multiply"){
-        calculate2=k*l;
+        calculate7=u*v;
     }
-    document.querySelector("#total2").innerHTML=calculate2;
+    document.querySelector("#total7").innerHTML=calculate7;
 }
 
 function product2(){
