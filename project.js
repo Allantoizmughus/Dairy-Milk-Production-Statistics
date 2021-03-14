@@ -22,3 +22,18 @@ function calculate(){
     document.querySelector("#resultss").innerHTML=calculatee;
 
 }
+
+function product(){
+    var g =parseInt(document.querySelector("#weeke").value);
+    var h =parseInt(document.querySelector("#numweek").value);
+    var op =document.querySelector("#operata").value;
+    var calculat;
+    if(op == "multiply"){
+        calculat=g*h;
+    }
+    document.querySelector("#result").innerHTML=calculat;
+}
+
+
+
+
