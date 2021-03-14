@@ -111,26 +111,26 @@ function product7(){
     document.querySelector("#total7").innerHTML=calculate7;
 }
 
-function product2(){
-    var k =parseInt(document.querySelector("#epd2").value);
-    var l =parseInt(document.querySelector("#dpm2").value);
-    var op =document.querySelector("#operator2").value;
-    var calculate2;
+function product8(){
+    var w =parseInt(document.querySelector("#epd8").value);
+    var x =parseInt(document.querySelector("#dpm8").value);
+    var op =document.querySelector("#operator8").value;
+    var calculate8;
     if(op == "multiply"){
-        calculate2=k*l;
+        calculate8=w*x;
     }
-    document.querySelector("#total2").innerHTML=calculate2;
+    document.querySelector("#total8").innerHTML=calculate8;
 }
 
-function product2(){
-    var k =parseInt(document.querySelector("#epd2").value);
-    var l =parseInt(document.querySelector("#dpm2").value);
-    var op =document.querySelector("#operator2").value;
-    var calculate2;
+function product9(){
+    var y =parseInt(document.querySelector("#epd9").value);
+    var z =parseInt(document.querySelector("#dpm9").value);
+    var op =document.querySelector("#operator9").value;
+    var calculate9;
     if(op == "multiply"){
-        calculate2=k*l;
+        calculate9=y*z;
     }
-    document.querySelector("#total2").innerHTML=calculate2;
+    document.querySelector("#total9").innerHTML=calculate9;
 }
 
 function product2(){
