@@ -133,15 +133,15 @@ function product9(){
     document.querySelector("#total9").innerHTML=calculate9;
 }
 
-function product2(){
-    var k =parseInt(document.querySelector("#epd2").value);
-    var l =parseInt(document.querySelector("#dpm2").value);
-    var op =document.querySelector("#operator2").value;
-    var calculate2;
+function product10(){
+    var aa =parseInt(document.querySelector("#epd10").value);
+    var bb =parseInt(document.querySelector("#dpm10").value);
+    var op =document.querySelector("#operator10").value;
+    var calculate10;
     if(op == "multiply"){
-        calculate2=k*l;
+        calculate10=aa*bb;
     }
-    document.querySelector("#total2").innerHTML=calculate2;
+    document.querySelector("#total10").innerHTML=calculate10;
 }
 
 function product2(){
